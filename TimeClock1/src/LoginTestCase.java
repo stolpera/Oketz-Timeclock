@@ -7,7 +7,9 @@ public class LoginTestCase {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		int[] expecteds = {1,2,3};
+		int[] actuals = {1,2,3};
+		assertArrayEquals(expecteds, actuals);
 	}
 
 }
